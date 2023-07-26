@@ -23,7 +23,7 @@ const LayoutWrapper = ({ children }: Props) => {
               <div className="flex items-center justify-between">
                 <div className="mr-3">
                   <Image
-                    src="/static/logo_small.png"
+                    src="/static/images/logo_small.png"
                     alt="Slack Academy logo"
                     width={48}
                     height={48}

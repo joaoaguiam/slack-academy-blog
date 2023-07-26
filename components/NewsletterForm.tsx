@@ -2,7 +2,7 @@ import React from 'react'
 
 // import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'Subscribe to our newsletter' }) => {
+const NewsletterForm = ({ title = 'Get Slack insights straight to your inbox' }) => {
   // const inputEl = useRef<HTMLInputElement>(null)
   // const [error, setError] = useState(false)
   // const [message, setMessage] = useState('')
@@ -36,7 +36,7 @@ const NewsletterForm = ({ title = 'Subscribe to our newsletter' }) => {
 
   return (
     <div>
-      <div className="pb-1 text-lg font-semibold text-gray-800 dark:text-gray-100 text-center">
+      <div className="pt-6 text-lg font-semibold text-gray-800 dark:text-gray-100 text-center">
         {title}
       </div>
       {/* <form className="flex flex-col sm:flex-row" onSubmit={subscribe}>
